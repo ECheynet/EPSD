@@ -1,5 +1,4 @@
-# EPSD
-Evolutionary Power Spectral Density (EPSD)
+# Evolutionary Power Spectral Density (EPSD)
 
 [![View Evolutionary Power Spectral Density (EPSD) on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/60959-evolutionary-power-spectral-density-epsd)
 
