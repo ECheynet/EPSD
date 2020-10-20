@@ -19,6 +19,8 @@ The submission contains:
 ## References
 
 [1] Priestley, M. B. (1965). Evolutionary spectra and non-stationary processes. Journal of the Royal Statistical Society. Series B (Methodological), 204-237.
+
 [2] http://www.mathworks.com/help/signal/ref/spectrogram.html
+
 [3] Hu, L., Xu, Y. L., & Huang, W. F. (2013). Typhoon-induced non-stationary buffeting response of long-span bridges in complex terrain. Engineering Structures, 57, 406-415.
 
