@@ -89,9 +89,12 @@ h(abs(t0)<=T/2) =  1/T;
 Sp = nan(Nfreq,N);
 for ii=1:Nfreq
     U0 = conv(g,x.*exp(-1i*2*pi.*freq(ii)*t0),'same');
-    Sp(ii,:) = conv(h,abs(U0).^2,'same').*2*(dt).^3;
+    Sp(ii,:) = conv(h,abs(U0).^2,'same');
 end
 
+% correct the variance of the integrated EPSD with the target variance
+SP = trapz(freq,Sp);
+Sp= Sp./nanmean(SP).*var(detrend(x));
 
 if dataPlot==1
     imagesc(t,freq,pow2db(Sp));
